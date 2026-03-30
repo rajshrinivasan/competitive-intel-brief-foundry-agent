@@ -1,0 +1,6 @@
+python-dotenv
+azure-identity
+agent-framework-core
+agent-framework-orchestrations
+agent-framework-azure-ai
+aiohttp

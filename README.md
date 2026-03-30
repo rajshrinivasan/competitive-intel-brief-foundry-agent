@@ -1,5 +1,7 @@
 # Project 06 — Startup Competitive Intelligence Brief
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 ## Pattern
 **Concurrent agents — parallel fan-out then sequential synthesis**
 
@@ -164,9 +166,16 @@ even though they all ran simultaneously.
 │   ├── github_researcher_prompt.txt
 │   ├── patents_researcher_prompt.txt
 │   └── synthesis_prompt.txt
-├── brief_<company>_<date>.txt          # Generated at runtime
+├── brief_<company>_<date>.txt          # Generated at runtime (gitignored)
 ├── requirements.txt
 ├── .env.example
-├── .env
+├── .env                                # Your credentials — gitignored, never committed
+├── LICENSE
 └── README.md
 ```
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE)
